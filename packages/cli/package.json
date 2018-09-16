@@ -1,0 +1,15 @@
+{
+  "name": "@lerna-stater/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified in cli modules\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lerna-stater/core": "^1.0.0"
+  }
+}

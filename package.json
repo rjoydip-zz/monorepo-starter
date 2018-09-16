@@ -1,0 +1,35 @@
+{
+  "name": "lerna-stater",
+  "version": "1.0.0",
+  "description": "Lerna javascript monorepo project stater",
+  "private": false,
+  "scripts": {
+    "add": "./node_modules/.bin/lerna add",
+    "boot": "./node_modules/.bin/lerna bootstrap",
+    "lerna:test": "./node_modules/.bin/lerna run test",
+    "clean": "./node_modules/.bin/lerna clean",
+    "ls": "./node_modules/.bin/lerna ls",
+    "link": "./node_modules/.bin/lerna link",
+    "global": "npm uninstall -g lerna-stater && npm install -g .",
+    "cleanup": "npm run clean && rm -rf node_modules/ && npm install",
+    "lint": "eslint . --ignore-path .eslintignore --cache",
+    "test": "cross-env LC_ALL=en_US.UTF-8 NODE_ENV=test jest"
+  },
+  "bin": {
+    "lerna-stater": "packages/cli/index.js"
+  },
+  "devDependencies": {
+    "lerna": "^3.4.0",
+    "prettier": "^1.14.2",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "jest": "^23.6.0",
+    "cross-env": "^5.2.0",
+    "jest-circus": "^23.6.0"
+  }
+}
