@@ -6,6 +6,7 @@ node_js:
   - '6'
 
 script:
+  - npm run boot
   - npm run lint
   - npm test
 
