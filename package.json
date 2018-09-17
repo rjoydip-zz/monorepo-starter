@@ -1,12 +1,11 @@
 {
   "name": "monorepo-starter",
   "version": "1.0.0",
-  "description": "Lerna javascript monorepo project stater",
+  "description": "Lerna javascript monorepo project starter",
   "private": false,
   "scripts": {
     "add": "./node_modules/.bin/lerna add",
     "boot": "./node_modules/.bin/lerna bootstrap",
-    "lerna:test": "./node_modules/.bin/lerna run test",
     "clean": "./node_modules/.bin/lerna clean",
     "ls": "./node_modules/.bin/lerna ls",
     "link": "./node_modules/.bin/lerna link",

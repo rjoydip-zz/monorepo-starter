@@ -7,12 +7,12 @@
 [![License](https://img.shields.io/npm/l/make-coverage-badge.svg)](https://github.com/rjoydip/monorepo-starter/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
 
-> Lerna javascript monorepo project stater.
+> Lerna javascript monorepo project starter.
 
 ## Features
 
-- [ES6](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/) support
-- [Prettier](https://prettier.io/)-[ESLint](https://eslint.org/) enabled for `lint`
+- [Prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/)
 - [Jest](https://jestjs.io/)
 - [lerna](https://lernajs.io/)
 
@@ -42,17 +42,17 @@ monorepo-starter
 
 ## Scripts
 
-Existing `npm scripts`.
+Existing npm scripts.
 
 - [add](https://github.com/lerna/lerna/tree/master/commands/add#readme) Add a dependency to matched packages
 - [boot](https://github.com/lerna/lerna/tree/master/commands/bootstrap#readme) Link local packages together and install remaining package dependencies
-- [lerna:test](https://github.com/lerna/lerna/tree/master/commands/run#readme) Run an npm script in each package that contains that script
+- [lerna:test](https://github.com/lerna/lerna/tree/master/commands/run#readme) 
 - [clean](https://github.com/lerna/lerna/tree/master/commands/clean#readme) Remove the node_modules directory from all packages
 - [ls](https://github.com/lerna/lerna/tree/master/commands/list#readme) List local packages
 - [link](https://github.com/lerna/lerna/tree/master/commands/link#readme) Symlink together all packages that are dependencies of each other
-- [global](#scripts) Install `monorepo-starter` CLI in local machine
+- [global](#scripts) Install `monorepo-starter` CLI globally in local machine
 - [cleanup](#scripts) Remove the `node_modules` directory from all packages and re-install them
-- [test](#scripts) Used [Jest](https://jestjs.io/) for testing
+- [test](#scripts) Used [Jest](https://jestjs.io/) Run an npm script in each package that contains that script
 - [lint](#scripts) Used [prettier](https://prettier.io/) and [eslint](https://eslint.org/) for linting utility
 
 ## CLI
@@ -63,7 +63,7 @@ $ npm run global
 
 ```
 $ monorepo-starter
-Welcome to lerna javascript monorepo project stater
+Welcome to lerna javascript monorepo project starter
 ```
 
 ## License

@@ -5,5 +5,5 @@ test("core welcome method", () => {
 });
 
 test("welcome message", () => {
-  expect(welcome()).toEqual("Welcome to lerna javascript monorepo project stater");
+  expect(welcome()).toEqual("Welcome to lerna javascript monorepo project starter");
 });

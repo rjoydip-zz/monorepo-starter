@@ -1,3 +1,3 @@
 "use strict";
 
-module.exports = () => "Welcome to lerna javascript monorepo project stater";
+module.exports = () => "Welcome to lerna javascript monorepo project starter";
