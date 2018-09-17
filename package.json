@@ -1,5 +1,5 @@
 {
-  "name": "lerna-stater",
+  "name": "monorepo-starter",
   "version": "1.0.0",
   "description": "Lerna javascript monorepo project stater",
   "private": false,
@@ -10,13 +10,13 @@
     "clean": "./node_modules/.bin/lerna clean",
     "ls": "./node_modules/.bin/lerna ls",
     "link": "./node_modules/.bin/lerna link",
-    "global": "npm uninstall -g lerna-stater && npm install -g .",
+    "global": "npm uninstall -g monorepo-starter && npm install -g .",
     "cleanup": "npm run clean && rm -rf node_modules/ && npm install && npm run boot",
     "lint": "eslint . --ignore-path .eslintignore --cache",
     "test": "cross-env LC_ALL=en_US.UTF-8 NODE_ENV=test jest"
   },
   "bin": {
-    "lerna-stater": "packages/cli/index.js"
+    "monorepo-starter": "packages/cli/index.js"
   },
   "devDependencies": {
     "lerna": "^3.4.0",

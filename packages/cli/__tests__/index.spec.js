@@ -1,4 +1,4 @@
-const welcome = require("@lerna-stater/core");
+const welcome = require("@monorepo-starter/core");
 
 test("core welcome method", () => {
   expect(typeof welcome).toBe("function");

@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-stater/cli",
+  "name": "@monorepo-starter/cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@lerna-stater/core": "^1.0.0"
+    "@monorepo-starter/core": "^1.0.0"
   }
 }

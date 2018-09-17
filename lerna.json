@@ -2,7 +2,7 @@
   "lerna": "3.4.0",
   "version": "1.0.0",
   "changelog": {
-    "repo": "lerna-stater",
+    "repo": "monorepo-starter",
     "cacheDir": ".changelog",
     "labels": {
       "PR: Spec Compliancy :eyeglasses:": ":eyeglasses: Spec Compliancy",
@@ -16,7 +16,7 @@
   },
   "command": {
     "create": {
-      "homepage": "https://github.com/rjoydip/lerna-stater",
+      "homepage": "https://github.com/rjoydip/monorepo-starter",
       "license": "MIT"
     },
     "publish": {

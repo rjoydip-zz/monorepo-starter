@@ -3,6 +3,6 @@
 
 "use strict";
 
-const welcome = require("@lerna-stater/core");
+const welcome = require("@monorepo-starter/core");
 
 process.stdout.write(welcome());
