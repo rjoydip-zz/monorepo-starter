@@ -9,6 +9,18 @@
 
 > Lerna javascript monorepo project stater.
 
+## Features
+
+- [ES6](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/) support
+- [Prettier](https://prettier.io/)-[ESLint](https://eslint.org/) enabled for `lint`
+- [Jest](https://jestjs.io/)
+- [lerna](https://lernajs.io/)
+
+## Requirements
+
+- [Node.js](http://nodejs.org/) >= 6
+- [Yarn](https://yarnpkg.com/lang/en/) >= 1
+
 ## Install
 
 ```
@@ -17,9 +29,20 @@ $ cd monorepo-starter
 $ npm install
 ```
 
+## Structure
+
+Inside monorepo.
+
+```
+monorepo-starter
+└── packages
+    ├── cli       # Project CLI
+    └── core      # Core modules
+```
+
 ## Scripts
 
-Some defaults `npm scripts`. Eg: `add`, `boot`, `lerna:test`, `clean`, `ls`, `link`, `global`, `clenup`, `lint`, `test`
+Existing `npm scripts`.
 
 - [add](https://github.com/lerna/lerna/tree/master/commands/add#readme) Add a dependency to matched packages
 - [boot](https://github.com/lerna/lerna/tree/master/commands/bootstrap#readme) Link local packages together and install remaining package dependencies
