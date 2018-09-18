@@ -1,7 +1,7 @@
 {
   "name": "monorepo-starter",
   "version": "1.0.0",
-  "description": "Lerna javascript monorepo project starter",
+  "description": "Javascript monorepo project starter",
   "private": false,
   "scripts": {
     "add": "./node_modules/.bin/lerna add",
