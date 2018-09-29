@@ -4,6 +4,7 @@
   "description": "Javascript monorepo project starter",
   "private": false,
   "scripts": {
+    "postinstall": "npm start",
     "start": "npm run cleanup && npm run global && monorepo-starter",
     "lerna": "lerna",
     "add": "npm run lerna add",
